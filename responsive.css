@@ -135,6 +135,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .items-conainer{
-        margin: 200px 10px;
+        margin: 250px 10px;
     }
 }
