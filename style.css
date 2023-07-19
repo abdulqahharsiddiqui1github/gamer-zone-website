@@ -227,7 +227,7 @@ nav ul {
 }
 .play-games-image{
     width: 45%;
-    padding: 50px;
+    /* padding: 50px; */
 }
 .play-games-position{
     position: relative;
@@ -243,26 +243,37 @@ nav ul {
     height: 300px;
 }
 .play-games-info{
-    width: 45%;
+    width: 40%;
 }
 .play-games{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
-    margin-bottom: 130px;
+    margin: 100px;
+    min-height: 100vh;
 }
+
+
+
+
+
+
+
+
+
+
+
 /* play games style starts end here */
 
 /* items style starts from here */
 .items-conainer{
-    margin: 50px 10px;
+    margin: 100px 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .item{
     text-align: center;
@@ -295,7 +306,7 @@ nav ul {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     justify-content: center;
     align-items: center;
     color: #fff;
