@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+    /* navbar responsive starts from here */
+    nav, ul{
+        flex-direction: column;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    /* navbar responsive end here */
+ 
+}
