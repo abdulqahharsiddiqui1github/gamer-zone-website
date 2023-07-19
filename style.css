@@ -117,16 +117,22 @@ nav ul {
    
 }
 .banner-info{
-    width: 45%;
-    background: url(./images/Group\ 14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    padding: 30px;
+    background-image: url(./images/Group\ 14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
 }
 .banner-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 100px;
-    background: #FFF;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 .banner-info ul li{
     color: #534C64;
@@ -176,7 +182,7 @@ nav ul {
     align-items: center;
     gap: 55px;
     margin: 20px 100px;
-    height: 100vh;
+    height: 110vh;
 }
 /* gamer style end here */
 
@@ -217,6 +223,7 @@ nav ul {
 /* play games style starts from here */
 .play-games{
     margin: 0 100px;
+    height: 90vh;
 }
 .play-games-image{
     width: 45%;
@@ -255,6 +262,7 @@ nav ul {
     gap: 30px;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .item{
     text-align: center;
@@ -269,8 +277,6 @@ nav ul {
 .image-item-title{
     font-size: 20px;
     font-weight: 600;
-}
-.item img{
 }
 /* items style end here */
 
@@ -329,6 +335,6 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 /* footer style end here */
