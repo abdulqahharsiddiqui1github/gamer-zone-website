@@ -7,5 +7,78 @@
         margin-top: 20px;
     }
     /* navbar responsive end here */
- 
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-info {
+        width: 100%;
+        margin: 30px;
+    }
+    .banner-image{
+        width: 100%;
+        margin: 30px;
+    }
+    .banner-container {
+        padding: 0px 30px;
+    }
+    /* gamer section responsive starts from here */
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-info{
+        width: 100%;
+        text-align: center;
+    }
+    .style-description{
+        text-align: center;
+    }
+    .style-heading{
+        text-align: center;
+    }
+    .gamer-container{
+        margin: 20px 10px;
+    }
+    .gamer-image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* gamer section responsive end here */
+
+    /* online card responsive here */
+    .online-games-card-container{
+        margin: 20px 10px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .online-games-title{
+        margin-top: 100px;
+    }
+    .play-games{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .play-games-info{
+        width: 100%;
+    }
+    .play-games-image{
+        width: 100%;
+        padding: 50px;
+    }
+    .play-games{
+        margin: 0 10px;
+    }
+    .imaege-badge{
+        right: -50px;
+        bottom: -50px;
+        width: 200px;
+        height: 200px;
+    }
+    .footer-div3{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .footer-div4{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
