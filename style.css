@@ -208,6 +208,14 @@ nav ul {
     justify-items: center;
     align-items: center;
 }
+.card-hover-container:hover .hover-img{
+    opacity: 0.3;
+}
+
+
+
+
+
 .card-p{
     color: #534C64;
     font-size: 20px;
