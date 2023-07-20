@@ -2,6 +2,9 @@
     nav {
         flex-direction: column;
     }
+    .nav-menu {
+        margin: 30px;
+    }
     .banner-container {
         flex-direction: column;
         padding: 20px 50px;
@@ -32,21 +35,28 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .online-games-header{
-        margin-top: 250px;
+        margin-top: 300px;
     }
     .play-games{
        flex-direction: column;
-        padding: 30px;
+       /* padding: 30px; */
     }
     .play-games-info{
         width: 100%;
-        padding: 200px 0;
+        margin-top: 150px;
     }
     .play-games-image{
-        width: 90%;
+        width: 80%;
+    }
+    .imaege-badge{
+        position: absolute;
+        right: -100px;
+        bottom: -50px;
+        width: 200px;
+        height: 200px;
     }
     .items-conainer{
-        margin-top: 600px;
+        margin-top: 500px;
     }
 }
 
@@ -89,7 +99,7 @@
     }
     .gamer-image{
         width: 100%;
-        margin-top: 30px;
+        margin-top: 200px;
     }
 
     .online-games-card-container{
@@ -108,17 +118,17 @@
         width: 100%;
     }
     .play-games-image{
-        width: 100%;
+        width: 80%;
         padding: 50px;
     }
     .play-games{
         margin: 0 10px;
     }
     .imaege-badge{
-        right: -50px;
+        right: -70px;
         bottom: -50px;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 130px;
     }
     .footer-div3{
         grid-template-columns: repeat(3, 1fr);
